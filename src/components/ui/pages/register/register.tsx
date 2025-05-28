@@ -1,4 +1,4 @@
-import { FC, useState } from 'react';
+import { FC } from 'react';
 import {
   Input,
   Button,
@@ -49,6 +49,7 @@ export const RegisterUI: FC<RegisterUIProps> = ({
               error={false}
               errorText=''
               size={'default'}
+              // @ts-ignore
             />
           </div>
           <div className='pb-6'>
